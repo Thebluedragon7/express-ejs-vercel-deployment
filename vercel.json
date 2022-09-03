@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "**/*.js": {
-      "memory": 512
-    }
-  },
   "regions": ["syd1"],
   "public": true,
   "trailingSlash": false,
