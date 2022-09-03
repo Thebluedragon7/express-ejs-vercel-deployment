@@ -3,8 +3,8 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const PORT = process.env.PORT || 3000;
-const apiRoutes = require("./routes/apiRoutes");
-const homeRoutes = require("./routes/homeRoutes");
+const apiRoutes = require("../routes/apiRoutes");
+const homeRoutes = require("../routes/homeRoutes");
 
 // setup view engine to ejs and Bootstrap
 app.set("views", path.join(__dirname, "./views/"));

@@ -2,5 +2,6 @@
   "regions": ["syd1"],
   "public": true,
   "trailingSlash": false,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
