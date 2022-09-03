@@ -1,6 +1,6 @@
 {
   "functions": {
-    "server.js": {
+    "**/*.js": {
       "memory": 512
     }
   },
