@@ -1,9 +1,12 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
+  "functions": {
+    "server.js": {
+      "runtime": "@vercel/node",
+      "memory": 1024
     }
-  ]
+  },
+  "regions": ["dev1"],
+  "public": true,
+  "trailingSlash": false,
+  "cleanUrls": true
 }
