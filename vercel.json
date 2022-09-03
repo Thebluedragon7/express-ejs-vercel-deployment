@@ -1,11 +1,10 @@
 {
   "functions": {
     "server.js": {
-      "runtime": "@vercel/node",
-      "memory": 1024
+      "memory": 512
     }
   },
-  "regions": ["dev1"],
+  "regions": ["syd1"],
   "public": true,
   "trailingSlash": false,
   "cleanUrls": true
